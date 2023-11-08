@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Economics"
+  sidebar:
+    #background: grey
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: econ-results-by-pres.ipynb
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    grid: 
+      body-width: 1000px
+    #page-layout: full

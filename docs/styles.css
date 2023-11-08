@@ -1,0 +1,13 @@
+/* css styles */
+#quarto-margin-sidebar{
+    position: fixed;
+    right:0;
+}
+
+#quarto-document-content {
+    width: 100%;
+}
+
+body {
+    width: 100%
+}
